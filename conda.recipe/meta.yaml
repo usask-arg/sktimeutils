@@ -4,7 +4,7 @@
 {% set py_version = environ['CONDA_PY'] %}
 
 package:
-  name: usask_arg_example
+  name: sktimeutils
   version: {{ version }}
 
 source:
@@ -28,13 +28,13 @@ requirements:
 
 test:
   imports:
-    - usask_arg_example
+    - sktimeutils
   requires:
-    - pytest
+    - unittest
   source_files:
-    - tests
+    - src
   commands:
-    - pytest tests
+    - python -m unittest discover -s sktimeutils.tests -p "test*.py"
 
 about:
   home: HOME_PAGE_URL
