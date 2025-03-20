@@ -35,7 +35,7 @@ test-linux:
   allow_failure: false
   script:
     - conda init bash
-    - conda env create --file env.yml -n builddocs  -q
+    - conda env create --file env.yml python=3.11 -n builddocs  -q
     - conda install make
     - source activate builddocs
     - ls -al ./wheelhouse

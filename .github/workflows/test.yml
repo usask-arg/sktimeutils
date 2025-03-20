@@ -46,7 +46,7 @@ jobs:
       - name: run pytests
         shell: bash -el {0}
         run: |
-          python -m pytest -v tests/
+          python -m pytest
 
   test-conda-build:
     runs-on: ubuntu-latest

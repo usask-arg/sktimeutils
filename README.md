@@ -23,7 +23,7 @@ Documentation can be found at https://nick.argpages.usask.ca/skoptics/index.html
 It is useful to run the unit tests as the tests will automatically download leap-second files and earth rotation 
 information. Needless to say you must have an internet connection to successfully run the unit tests 
 
-    python -m unittest discover -s sktimeutils.tests -p "test*.py"
+    python -m unittest discover -s sktimeutils.tests
 
 ## License
 This project is licensed under the MIT license.

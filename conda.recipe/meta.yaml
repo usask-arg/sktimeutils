@@ -30,11 +30,11 @@ test:
   imports:
     - sktimeutils
   requires:
-    - unittest
+    - pytest
   source_files:
     - src
   commands:
-    - python -m unittest discover -s sktimeutils.tests -p "test*.py"
+    - pytest
 
 about:
   home: HOME_PAGE_URL
