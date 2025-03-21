@@ -1,7 +1,7 @@
 # pyproject.toml
 [project]
 name = "sktimeutils"
-dependencies = ["numpy", "jdcal"]
+dependencies = ["numpy", "jdcal", "astropy"]
 license = {text = "MIT"}
 authors=[{name='usask-arg'}, {name='Nick Lloyd'}]
 dynamic = ["version"]
