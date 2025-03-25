@@ -45,7 +45,7 @@ copyright = '2025, ARG University Of Saskatchewan'
 author = 'USASK-ARG'
 
 # The short X.Y version.
-version = sktimeutils._version.__version__
+version = '' # sktimeutils._version.__version__
 # The full version, including alpha/beta/rc tags.
 release = ''
 
