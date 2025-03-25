@@ -67,18 +67,21 @@ utc_to_astropy
 --------------
 .. autofunction:: sktimeutils.utc_to_astropy
 
-**********************
-UT Conversion. Scalars
-**********************
 
 mjd_to_datetime
 ---------------
+Scalar conversion only.
+
 .. autofunction:: sktimeutils.mjd.mjd_to_datetime
 
 mjd_to_datetime64
 -----------------
+Scalar conversion only.
+
 .. autofunction:: sktimeutils.mjd.mjd_to_datetime64
 
 datetime64_to_datetime
 ----------------------
+Scalar conversion only.
+
 .. autofunction:: sktimeutils.datetime64_to_datetime

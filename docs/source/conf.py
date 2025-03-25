@@ -78,7 +78,7 @@ language = 'en'
 html_theme = 'pydata_sphinx_theme'
 logo_name = 'skproject-logo.png'
 html_logo ='_static/{}'.format(logo_name)
-html_static_path = ["_static", "_assets"]
+html_static_path = ["_static"]
 html_favicon = "_static/usask-arg_icon_32.ico"
 html_theme_options = {
    "icon_links": [ {"name": "Github",

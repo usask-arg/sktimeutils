@@ -1,25 +1,25 @@
 # sktimeutils
-
-[![Documentation Status](https://readthedocs.org/projects/showlib/badge/?version=latest)](https://showlib.readthedocs.io/en/latest/?badge=latest)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/usask-arg/showlib/main.svg)](https://results.pre-commit.ci/latest/github/usask-arg/showlib/main)
-
 This package provides Universal Time conversion functions used by the usask-arg group. The
 code tries to be friendly for arrays, sequences and scalars. This package currently supports UT time expressed as strings,
-modified julian date as floats, Python DateTime and numpy Datetime64.  The code is focussed on Universal Time and has no provision
-for time zone handling or conversion conversions etc.  No attempt is made to manage leap-seconds and other earth rotation issues 
-in a fully consistent manner.   
+modified julian dates expressed as floats, Python DateTime and numpy Datetime64. We typically use the package to process  
+arrays of measurement times read in from data records stored in netcdf files or similar. The code is focussed on Universal Time 
+and has no provision for handling time zone conversions etc.  Nor do we attempt to rigorously manage leap-seconds and 
+other earth-rotation issues. 
 
 ## Installation
     
     pip install sktimeutils
 
-also
+We recommend running the unit tests, see below, after installation to download Earth rotation data files.
+
+### Building a wheel
+The python wheel can also be built from source code,
 
     conda install setuptools build
     python -m build --wheel
 
 ## Usage
-Documentation can be found at https://nick.argpages.usask.ca/skoptics/index.html
+Documentation can be found at ReadTheDocs [sktimeutils](https://sktimeutils.readthedocs.io/en/latest/index.html)
 
 ## Unit Tests
 It is useful to run the unit tests as the tests will automatically download leap-second files and earth rotation 
