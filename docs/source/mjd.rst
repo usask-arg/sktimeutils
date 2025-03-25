@@ -1,7 +1,7 @@
 ..  _mjd_api:
 
 *********************************
-UT Conversion. Arrays and Scalars
+UT Conversion
 *********************************
 
 This is a description of the **sktimeutils.mjd** module. It provides several utility

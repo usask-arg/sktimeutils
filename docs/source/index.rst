@@ -17,7 +17,7 @@ The package also provides functions to convert from ECI/TEME coordinates to ECEF
 linked with sidereal time calculations.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    installation
    mjd
